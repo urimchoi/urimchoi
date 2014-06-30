@@ -1,0 +1,9 @@
+﻿Title: Kirby CMS
+
+----
+
+Caption: **Customized UX** Make updates dead simple so that the site can have fresh content at all times
+
+----
+
+Direction: right

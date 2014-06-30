@@ -1,0 +1,11 @@
+Title: Urim Choi, Front-End Developer
+----
+Author: Urim Choi
+----
+Description: Portfolio Website of Urim Choi
+----
+Keywords: kirby, cms, kirbycms, php, Urim, Choi, urimchoi, Brooklyn, New York, web, development, front-end, portfolio, responsive
+----
+Copyright: © 2014 - Urim Choi
+----
+Credit: Designed by (link: http://www.jbokim.com text: Jbo Kim)

@@ -1,0 +1,260 @@
+@import 'jeet'
+
+@import 'mixins'
+@import 'font'
+@import 'icons'
+@import 'nav' 
+@import 'animation'
+
+section
+	position relative
+	text-align center
+	border #eee 1px solid
+	border-left none
+	border-right none
+	&:nth-of-type(odd)
+		background-texture()
+
+article
+	col(4/6, offset: 1/6)
+	margin-bottom 100px
+
+p
+	margin-bottom 20px
+
+hr
+	margin 20px 0
+	border 1px solid #ebebeb
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (max-width : 768px)
+	body
+	html
+		overflow-x hidden
+	article
+		col(7/8, offset: 0.5/8)
+	hr
+		width 80%
+		margin 10px auto 20px
+
+.clearfix 
+	cf()
+
+
+#welcome
+	margin 0
+	align-center()
+	width 100%
+	max-width 360px
+	& #logo
+		box(104px)
+		border-radius(50%)
+		margin-bottom 15px
+	& h2
+		padding-left 5px
+
+#profilepic
+	border-radius(50%)
+	border 2px solid highlight-color
+	width 104px
+	margin-bottom 20px
+
+.section-header
+	margin-top 100px
+	margin-bottom 30px
+
+.main-text
+	text-align left
+	font-size intro-text-size
+
+.skills-wrapper
+	col(6/8, offset: 1/8)
+	margin-top 30px
+	margin-bottom 50px
+	& .skill-block
+		col(1)
+		margin-bottom 10px
+		& .skill-label
+			col(1/5)
+			text-align right
+			color dark-blue-color
+		& .skill-level
+			col(4/5)
+			border-radius(5px)
+			background #eee
+			overflow hidden
+			margin-top 16px
+			& div
+				background highlight-color
+				height 2px
+			& .graph-1
+				span(1/10)
+			& .graph-2
+				span(2/10)
+			& .graph-3
+				span(3/10)
+			& .graph-4
+				span(4/10)
+			& .graph-5
+				span(5/10)
+			& .graph-6
+				span(6/10)
+			& .graph-7
+				span(7/10)
+			& .graph-8
+				span(8/10)
+			& .graph-9
+				span(9/10)
+			& .graph-10
+				span(10/10)
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (max-width: 1000px)
+	.skills-wrapper
+		col(1)
+		& .skill-block .skill-label
+			col(1/3)
+			text-align right
+		& .skill-block .skill-level
+			col(2/3)
+
+#resume
+	text-align left
+	display none
+	& h3
+		margin-right 10px
+		display inline-block
+	& .resume-skills
+		col(1/3)
+		& li
+			list-style-type circle
+			margin-left 20px
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (max-width: 768px)
+	#resume .resume-skills
+		stack()
+		margin-bottom 20px
+		&:last-of-type
+			margin-bottom 0px
+
+.work-block-wrapper
+	position relative
+	height 250px
+	border 0px solid transparent
+	border-radius(5px)
+	margin-top 20px
+	overflow hidden
+	background highlight-color
+	& .work-block
+		box(100%)
+		opacity 0
+		& .work-label
+			align-center()	
+			width 100%
+			color white
+		&:hover
+			background highlight-color
+			opacity 0.9
+			cursor pointer
+		& h3
+			color white
+
+.more-details
+	margin-top 60px
+	margin-bottom 120px
+
+.feature-list,
+.tech-list
+	col(1/2 4/6)
+	& ul
+	& h2
+		text-align left
+	& li
+		list-style-type circle
+		margin-left 20px
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (max-width: 768px)
+	.more-details
+		margin-top 40px
+	.feature-list,
+	.tech-list
+		stack()
+		margin-top 20px
+		
+
+.figure
+	position relative
+	margin-bottom 80px
+	& strong
+		display block
+		color dark-blue-color
+		font-weight bold
+
+.screenshot
+	background slate-blue-color
+	height 500px
+	border 2px solid #ebebeb
+.caption
+	position absolute
+	top 0
+	width 45%
+	
+	
+
+.left
+	& .screenshot
+		transform translateX(-50%)
+		-webkit-transform translateX(-50%)
+	& .caption
+		right 0
+		text-align left
+
+.right
+	& .screenshot
+		transform translateX(50%)
+		-webkit-transform translateX(50%)
+	& .caption
+		left 0
+		text-align right
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (max-width: 768px)
+	.work-block-wrapper
+		height auto
+		padding-bottom 100%
+		& .work-block .work-label
+			background highlight-color
+			padding 300px 0px
+			& .work-tags
+				padding 0px 10px
+	.left .screenshot,
+	.right .screenshot
+		transform translateX(0%)
+		-webkit-transform translateX(0%)
+	.left .caption,
+	.right .caption
+		position relative
+		width 100%
+		text-align left
+		margin-top 20px
+
+
+.contact
+	margin 0
+	align-center()
+	width 100%
+	max-width 360px
+	& .main-text
+		text-align center
+
+footer
+	text-align center
+	padding 20px 0 0
+	background #fff
+
+
+#project
+	background #fff
+	& img
+		width 100%
+	
+
+

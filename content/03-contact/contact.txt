@@ -1,0 +1,14 @@
+Title: contact
+----
+Text: Get in touch!
+----
+Phone: (817) 437-7954
+----
+Email: urim.choi@gmail.com
+----
+Location: Brooklyn, NY
+----
+Facebook: urimchoi
+----
+Linkedin: urimchoi
+

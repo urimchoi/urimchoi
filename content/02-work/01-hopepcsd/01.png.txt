@@ -1,0 +1,13 @@
+﻿Title: Sermon Page
+
+----
+
+Caption: **Filtering** Users can filter sermon archive the related book or topic category.
+
+**YouTube Implementation** YouTube links of sermon videos are injected into the modal element to minimize HTTP requests at page load. YouTube links are stored locally in each model and are displayed as a collection.
+
+**Infinite Scroll** More sermons are fetched from the server via AJAX when the user nears the bottom of the page.
+
+----
+
+Direction: right

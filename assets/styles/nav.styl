@@ -1,0 +1,117 @@
+#top-header
+	background #fff
+	height 40px
+	width 100%
+	z-index 1
+	position fixed
+	top 0
+	left 0 
+	padding 10px
+	border-bottom 1px solid #ebebeb
+
+.logo-button
+	box(40px)
+	background-image url('../images/logo2x.png')
+	background-size cover
+	border none
+
+nav#mobile-nav
+	z-index 1
+	position fixed
+	top 0
+	right 0
+	box(60px)
+	& .nav-button
+		align-center()
+		font-size 30px
+		cursor pointer
+	& .mobile-menu 
+		margin-top 60px
+		display none
+		& li
+			position relative
+			box(60px)
+			& a
+				align-center()
+				font-size 30px
+				color slate-blue-color
+				border-color transparent
+				&:hover
+					color highlight-color
+		
+
+nav#desktop-nav
+	z-index 1
+	position fixed
+	top 0
+	right 0
+	height 100%
+	width 60px
+	background dark-blue-color
+	& ul
+		align-center()
+		& li
+			position relative
+			box(40px)
+			margin 20px auto
+			font-size 30px
+			& a
+				align-center()
+				color #fff
+				border none
+				&:hover
+					color #fff
+			& .nav-tooltip
+				display none
+				position absolute
+				top 50%
+				left 0
+				transform translate(-130%, -50%)
+				-webkit-transform translate(-130%, -50%)
+				-moz-transform translate(-130%, -50%)
+				background highlight-color
+				min-width 60px
+				padding 1px 10px
+				border-radius(5px)
+				text-align center
+				text-transform uppercase
+				font-family 'apex_newbook'
+				letter-spacing 3px
+				font-size 13px
+				color #fff
+				&:after
+					content ''
+					display block
+					position absolute
+					top 50%
+					right -8px
+					height 0px
+					width 0px
+					transform translate(0%, -50%)
+					-webkit-transform translate(0%, -50%)
+					-moz-transform translate(0%, -50%)
+					border 0px solid transparent
+					border-left 10px solid highlight-color
+					border-top 14px solid transparent
+					border-bottom 14px solid transparent
+
+#work-nav 
+	& a
+		position relative
+		margin auto 10px
+		display inline-block
+		border-radius(50%)
+		background transparent
+		border 2px solid highlight-color
+		box(60px)
+		&:hover
+			background highlight-color
+			& div
+				color #fff
+		& div 
+			align-center()
+			color highlight-color
+			border none
+			font-size 23px
+			
+

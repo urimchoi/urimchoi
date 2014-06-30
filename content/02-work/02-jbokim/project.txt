@@ -1,0 +1,30 @@
+﻿Title: J.Bo Kim Design Portfolio
+
+----
+
+Year: 2014
+
+----
+
+Tags: HTML/CSS, jQuery, PHP, Responsive Kirby Theme
+
+----
+
+Externallink: http://www.jbokim.com
+
+----
+
+Description: A redesign for J.Bo Kim's design portfolio. My role was to implement PSD mockups as well as set up Kirby for content management.
+
+----
+
+Feature: - Tailored content management tools
+- Fully responsive
+
+----
+
+Tech: - HTML5
+- CSS3
+- jQuery
+- PHP
+- Kirby CMS

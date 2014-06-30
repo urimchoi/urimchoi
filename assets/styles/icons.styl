@@ -1,0 +1,50 @@
+.social-icon-list 
+	& li
+		position relative
+		margin auto 10px
+		display inline-block
+		border-radius(50%)
+		background slate-blue-color
+		box(45px)
+		&:hover
+			background highlight-color
+		& a 
+			align-center()
+			color #fff
+			border none
+
+.button
+	col(1/4, offset: 1.5/4)
+	background-color slate-blue-color
+	border-radius(3px)
+	border-color transparent
+	padding 10px
+	color #ebebeb
+	margin-top 30px
+	margin-bottom 20px
+	text-align center
+	&:hover
+		color white
+		background highlight-color
+
+
+div.button
+	color #fff
+	margin-bottom -50px
+	& .icon-button
+		display inline
+		font-size 18px
+	&:hover .icon-button
+		cursor pointer
+	& .button-label
+		color #fff
+	& .icon-expand,
+	& .icon-close
+		color #fff
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (max-width : 768px)
+	.button
+		col(3/4, offset: 0.5/4)
+		text-align center
+
+

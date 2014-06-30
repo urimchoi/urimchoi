@@ -1,0 +1,32 @@
+﻿Title: J.Bo & Urim Wedding Website
+
+----
+
+Year: 2013
+
+----
+
+Tags: HTML5, CSS3, jQuery, JavaScript
+
+----
+
+Externallink: http://www.jboandurim.com
+
+----
+
+Description: A simple one page website allowing our wedding guests to learn more about the wedding, RSVP for the wedding, flip through pictures, and get registry information.
+
+----
+
+Feature: - RSVP form via Google form
+- MapBox integration for event details and map
+- Featured on (link:http://onepagelove.com/j-bo-urims-wedding text:One Page Love popup:yes class:external-link)
+
+----
+
+Tech: - HTML5
+- CSS3
+- jQuery
+- JavaScript
+- Google Forms
+- MapBox

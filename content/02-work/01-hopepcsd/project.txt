@@ -1,0 +1,32 @@
+﻿Title: Hope Presbyterian Church in San Diego
+
+----
+
+Year: 2014
+
+----
+
+Tags: HTML/CSS, jQuery, PHP, Responsive Kirby Theme, Facebook API, Braintree API*
+
+----
+
+Externallink: http://www.hopepcsd.org
+
+----
+
+Description: The Hope website is a fully responsive, interactive website built on (link:http://www.getkirby.com text:Kirby), an open-source flat-file CMS. The objective was to revamp their logo and design, provide access to an online archive of sermons, and engage the audience by delivering information in an interactive way.
+
+----
+
+Feature: - Responsive Design
+- Simplify website maintenance (Kirby CMS)
+- Create a filterable sermon archive
+- Online payments via Braintree API
+- Event management via Facebook API
+
+----
+
+Tech: - HTML 5
+- CSS 3
+- jQuery / Javascript via CoffeeScript
+- PHP

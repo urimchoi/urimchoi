@@ -1,0 +1,64 @@
+Title: Resume
+----
+Text: 
+
+## Experience
+### FULL STACK FREELANCE DEVELOPER
+#### JUNE 2010 - PRESENT
+Developed interactive, responsive websites for small businesses and non-profits to improve their online presence and communication with their customers. Responsible for tailoring Wordpress or Kirby interfaces to fit client needs, developing the front end, and improving / debugging based on user testing.
+
+### STANDARD AND POOR'S
+#### SENIOR FINANCIAL ANALYST | OCTOBER 2013 - PRESENT
+Created SQL databases and financial models to track and project ETF performance. Developed excel macros to build a interactive ETF report used by project managers and senior executives to improve decision making.
+
+### ERNST & YOUNG 
+#### SENIOR ASSOCIATE | NOVEMBER 2012 - SEPTEMBER 2013<br/>
+
+<div></div>
+
+### KPMG 
+#### SENIOR ASSOCIATE | OCTOBER 2010 - NOVEMBER 2012
+Led teams to provide external audit services to technology and media companies. Developed skills to work under heavy pressure and tight deadlines. Often required quick decisions and handling multiple projects at a time.
+
+### UNIVERSITY OF TEXAS AT AUSTIN WEB TEAM
+#### JUNIOR FRONT END DEVELOPER | AUGUST 2009 - MAY 2010
+Assisted in implementing the McCombs Business School’s website redesign. Processed website update requests.
+
+<div style="height:20px;"></div>
+
+## Education
+### UNIVERSITY OF TEXAS AT AUSTIN
+Masters in Professional Accounting, 2010
+Bachelors in Business Administration, 2010
+
+### CERTIFIED PUBLIC ACCOUNTANT (ILLINOIS)
+
+<div style="height:40px;"></div>
+
+## Technical Skills
+----
+Skills:
+### SKILLS
+* HTML / CSS
+* jQuery / JavaScript
+* PHP
+* Wordpress Development
+* Kirby Development
+* Website Optimization / Debugging
+* RESTful API Integration
+----
+Tools:
+### TOOLS
+* Stack Overflow
+* Git
+* CoffeeScript
+* LESS / Stylus
+* Adobe Photoshop
+----
+Knowledge:
+### KNOWLEDGE
+* Modular JavaScript
+* Object Oriented Programming
+* MVC Framework
+* Data Structures
+

@@ -1,0 +1,9 @@
+﻿Title: Facebook Integration
+
+----
+
+Caption: **Centralized Event Management via Facebook** Allow the client to use a event management tool they already know how to use.
+
+----
+
+Direction: right
