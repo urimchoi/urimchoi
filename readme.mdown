@@ -5,6 +5,7 @@ My personal website built with:
 * Stylus (CSS Preprocessor)
 * Jeet (Stylus library for grid layouts)
 * CoffeeScript (JavaScript compiler)
+* Fontello (Icon font generator)
 
 <http://urimchoi.com>
 
@@ -13,5 +14,4 @@ My personal website built with:
 
 
 ## Copyright (Kirby)
-
 © 2014 Urim Choi
