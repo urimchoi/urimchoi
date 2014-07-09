@@ -32,6 +32,7 @@
 			<hr>
 			<ul class="social-icon-list">
 				<?php $contactPage = $pages->find('contact') ?>
+				<li class="anim-slideup-3"><a class="icon-github social-icon-circle" href="//www.github.com/urimchoi" target="_blank"></a></li>
 				<li class="anim-slideup-3"><a class="icon-facebook social-icon-circle" href="//www.facebook.com/<?php echo $contactPage->facebook() ?>" target="_blank"></a></li>
 				<li class="anim-slideup-4"><a class="icon-linkedin social-icon-circle" href="//www.linkedin.com/in/<?php echo $contactPage->linkedin() ?>" target="_blank"></a></li>
 				<li class="anim-slideup-5"><a class="icon-mail-1 social-icon-circle" href="mailto:<?php echo $contactPage->email() ?>"></a></li>
